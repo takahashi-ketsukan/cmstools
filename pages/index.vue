@@ -18,4 +18,5 @@ const { data: response } = await useFetch(
         credentials: 'include',
     }
 );
+console.log("API Response:", response.value)
 </script>

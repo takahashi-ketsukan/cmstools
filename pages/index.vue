@@ -24,7 +24,9 @@ const config = useRuntimeConfig()
 const { data: response, error } = await useFetch(
   `${config.public.apiBase}/rcms-api/3/service/7`,
   {
-    credentials: 'include',
+    headers: {
+      "X-API-KEY": config.public.apiKey || "" 
+    }
   }
 )
 

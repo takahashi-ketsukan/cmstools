@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
       // Public keys that are exposed to the client
       public: {
-          apiBase: 'https://ucdgovtest.g.kuroco-front.app/'
+          apiBase: 'https://ucdgovtest.g.kuroco.app/'
       }
   },
 })
